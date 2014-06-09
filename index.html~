@@ -5,6 +5,8 @@
 <script>
 // jquery code
 $( document).ready( function() { 
-	$.post( 'actions.php', { key: 'value'}, function( v) { console.log( v); $( 'body').append( v); }, 'json')
+	$.post( 'actions.php', { key: 'value'}, function( v) { 
+             console.log( v); 
+             $( 'body').append( v); }, 'json')
 })
 </script>
